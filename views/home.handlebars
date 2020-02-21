@@ -1,0 +1,54 @@
+<div class="home">
+
+    <div class="image_preview_showcase  d-none p-4 clearfix">
+        <div style="margin-bottom: 35px;">
+        <i class="material-icons float-right close_image">
+            close
+        </i></div>
+
+
+    </div>
+
+    <div class="sideContainer">
+        <img src="https://image.flaticon.com/icons/svg/2577/2577180.svg" alt=""  width="200px">
+    </div>
+    <form class="mainForm card p-4">
+        <h4>Upload your image here</h4>
+        <hr>
+        <div class="upload_computer_container">
+             <button type="button" class="w-50 btn btn-info mb-3 text-left p-2 upload_computer_button" style="box-sizing: border-box;">Upload Your File Here 
+            <i class="material-icons  ml-2" style="position: absolute;">
+            computer
+            </i>
+            </button>
+           
+       
+        <input type="file" class="d-none file_input" name="file" multiple> 
+        </div>
+       
+        
+      <div class="upload_web_container d-none" >
+          <input type="text" placeholder="Provide the link of the image" style="width:80%;">
+        <button class="btn btn-info">Go</button></div>  
+       
+
+      
+
+         <div> <button class="d-none preview_image btn btn-info">Preview</button></div>
+       
+        
+    
+        
+        <div class="mt-2">
+            <input type="radio"  name="upload_type" checked class="upload_computer"> From Computer
+           
+             <input type="radio" class="ml-3" name="upload_type" class="upload_web">
+             External Link
+        </div>
+        <button class="submitButton btn btn-success w-25 text-left">Upload <i class="material-icons ml-2" >cloud</i>
+
+        </button>
+       
+    </form>
+
+</div>

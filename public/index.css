@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(240, 239, 239);
+}
+
+.home{
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.bg-purple{
+    background-color: rgb(17, 0, 31);
+}
+
+.sideContainer{
+    flex-basis: 40%;
+}
+
+.mainForm{
+    flex-basis: 40%;
+    display: block;
+   
+}
+
+.mainForm input{
+   
+    margin-bottom: 15px;
+    padding: 5px;
+    
+}
+
+
+
+.mainForm i{
+    position: absolute;
+}
+
+.image_preview_showcase{
+    background-color: rgb(250, 249, 249);
+
+     width:50vw; 
+   max-height: 80vh;
+      position:absolute;
+      z-index:1 ;
+      overflow-y: scroll;
+      
+}
+
+.image_preview_showcase .card{
+    display: block;
+   
+}
+
+.image_preview_showcase .card h5{
+    display: inline-block;
+}
+.image_preview_showcase  i{
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    color: white;
+
+}
